@@ -1,0 +1,113 @@
+body{
+    background-color: #131313;
+    overscroll-behavior-y: none;
+  }
+
+  #ommeg {
+    background-color: black;
+    padding: 170px;
+    margin:  50px;
+    margin-right: 800px;
+    width: 500px;
+    height: 100px;
+    border: 5px solid #950000;
+  }
+
+  #kompetanse {
+    background-color: black ;
+    padding: 170px;
+    margin:  50px;
+    margin-right: 50px;
+    margin-left: 890px;
+    margin-top: -400px;
+    width: 500px;
+    height: 100px;
+    border: 5px solid #950000;
+  }
+
+  #interesser {
+    background-color: black ;
+    padding: 170px;
+    margin:  50px;
+    margin-right: 50px;
+    margin-left: 480px;
+    margin-top: -150px;
+    width: 500px;
+    height: 100px;
+    border: 5px solid #950000;
+  }
+
+  h1{
+    color: white;
+  }
+
+  p{
+    color: white;
+  }
+
+  #mellomrom1{
+    margin: 100px;
+  }
+  #mellomrom2{
+    margin: 200px;
+  }
+
+  .overskriftommeg{position:absolute;
+    color: white;
+    left: 220px;
+    top: 200px;
+  }
+
+  .minkompetanse{position:absolute;
+    color: white;
+    left: 1000px;
+    top: 200px;
+  }
+
+  .overskriftinteresser{position:absolute;
+    color: white;
+    left: 650px;
+    top: 1010px;
+  }
+
+  .tekstommeg{position:absolute;
+    color: white;
+    left: 90px;
+    top: 255px;
+  }
+
+  .tekstomkompetanse{position:absolute;
+    color: white;
+    left: 915px;
+    top: 255px;
+    list-style: none;
+  }
+
+  .profilbilde{position: absolute;
+    border-radius: 50%;
+    top: 250px;
+    left: 600px;
+    z-index: -1;
+    border: 5px solid #950000;
+  }
+
+  .video1{
+    margin-left: 230px;
+  }
+
+  .video2{
+    margin-left: 340px;
+  }
+
+  hr{
+    border: 3px solid #950000;
+    opacity: 100%;
+  }
+
+  .interessertekst{position: absolute;
+    margin-left: -150px;
+    margin-top: -70px;
+    z-index: 0;
+  }
+
+  

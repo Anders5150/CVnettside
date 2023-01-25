@@ -1,0 +1,63 @@
+body{
+    background-color: #131313;
+    overscroll-behavior-y: none;
+  }
+
+  .overskrift1{
+    margin: 100px;
+    margin-left: 250px;
+}
+.tekst1{
+    margin: 800px;
+    margin-left: 60px;
+    margin-top: -80px;
+}
+
+.overskrift3{position: absolute;
+    margin-left: 1020px;
+    margin-top: -2130px;
+    z-index: 0;
+}
+
+.tekst2{position: absolute;
+    margin: 50px;
+    margin-left: 830px;
+    margin-top: -2070px;
+    z-index: 0;
+}
+
+h1{
+    margin: 100px;
+    margin-left: 490px;
+    margin-top: 10px;
+}
+
+hr{
+    border: 3px solid #950000;
+    opacity: 100%;
+    margin-top: -80px;
+  }
+
+  #box {position: absolute;
+    background-color: black;
+    padding: 310px;
+    padding-bottom: 1050px;
+    margin-left: 30px;
+    margin-top: -2150px;
+    border: 5px solid #950000;
+    z-index: -1;
+  }
+
+  #box2 {position: absolute;
+    background-color: black;
+    padding: 310px;
+    padding-bottom: 1050px;
+    margin-left: 780px;
+    margin-top: -2150px;
+    border: 5px solid #950000;
+    z-index: -1;
+  }
+
+#footer{
+    margin-top: -650px;
+}
