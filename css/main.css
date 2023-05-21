@@ -127,8 +127,9 @@ body{
 }
 
 .bilde{
-  width: 60%;
+  width: 30%;
   margin-top: -300px;
+  
 }
 #skolelink{
   font-size: 10;
@@ -218,10 +219,11 @@ body{
   }
   
   .ommegbilde{
-      position: absolute;
-      top:100px;
-      left: 300px;
-      width: 500;
+    position: absolute;
+    top:100px;
+    left: 300px;
+    width: 500;
+      
   }
   .utdanning {
       position: absolute;
@@ -260,6 +262,7 @@ body{
   width: 50%;
   margin-top: -280px;
   margin-left: 100px;
+  min-width: 716px;
 }
 
 #bg1 {
@@ -378,17 +381,6 @@ td, th {
   margin-left: 450px;
 }
 
-.footerbilde{position: absolute;
-  left: 215px;
-  top: 1225px;
-  z-index: -1;
-  
-}
-.footerbildehender{position: absolute;
-  left: 215px;
-  top: 1225px;
-}
-
 .fa-brands{
   width: 100px;
   font-size: 50px;
@@ -399,4 +391,101 @@ td, th {
 .fa-brands:hover{
   color: gray;
 }
+
+.arbeidserfaringtittel{
+  position: absolute;
+  font-family: missionDanger;
+  top:1730px;
+  left: 425px;
+  color: white;
+  font-size: 70px;
+}
+
+#bg3 {
+  background-color: white  ;
+  padding: 200px;
+  
+}
+
+.countdowntittel{
+  position: absolute;
+  font-family: missionDanger;
+  top:2625px;
+  left: 220px;
+  color: #10243c;
+  font-size: 70px;
+}
+
+.counter-wrapper {
+  width: 105% !important;
+  display: flex;
+  flex-direction: column;
+  margin-top: -10vh;
+  
+}
+.counter-container {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: -8vh;
+}
+
+.counter-container div h2 {
+  font-size: 4vw;
+}
+.counter-container div h3 {
+  font-size: 1.6vw;
+  margin-top: -10px;
+}
+
+.counter-container div {
+  width: 160px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.counter-container div h3 {
+  margin-top: -0px;
+}
+
+.clock-separator {
+  width: 100px !important;
+}
+
+.clock-hours, .clock-days, .clock-minutes,.clock-seconds{
+  color: #10243c;
+  font-family: missionDanger;
+  
+}
+.arbeid{
+  text-align: center;
+  color: white;
+}
+
+hr{
+  border: 3px solid white;
+  width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 100%;
+}
+
+#link{
+  color: white;
+}
+
+#link:hover{
+  color: gray;
+}
+}
+
+@media only screen and (max-width: 1364px) {
+.tekstomkompetanse{
+  display: none;
+}
+
 }
