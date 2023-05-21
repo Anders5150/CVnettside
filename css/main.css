@@ -263,6 +263,7 @@ body{
   margin-top: -280px;
   margin-left: 100px;
   min-width: 716px;
+  max-width: 716px;
 }
 
 #bg1 {
